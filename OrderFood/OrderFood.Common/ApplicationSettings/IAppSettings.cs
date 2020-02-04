@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OrderFood.Common
+namespace OrderFood.Common.ApplicationSettings
 {
-    public class Class1
+    public interface IAppSettings
     {
+        int DefaultPageSize { get; }
     }
 }
