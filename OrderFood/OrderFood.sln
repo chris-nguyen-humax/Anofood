@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderFood.Data", "OrderFood.Data\OrderFood.Data.csproj", "{8C9539D3-9220-421E-9069-1AFD7BCC8757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderFood.Model", "OrderFood.Model\OrderFood.Model.csproj", "{25837A15-426E-40FE-BE57-A440D9DA0888}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderFood.Common", "OrderFood.Common\OrderFood.Common.csproj", "{F3A2B267-ABED-416B-9307-C49A4CE46766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderFood.Infrastructure", "OrderFood.Infrastructure\OrderFood.Infrastructure.csproj", "{5FD1DD0A-5DB1-40C4-9D26-2330544EBB6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderFood.Service", "OrderFood.Service\OrderFood.Service.csproj", "{E48DA521-5AEC-45ED-8568-C105269AA301}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderFood.UnitTest", "OrderFood.UnitTest\OrderFood.UnitTest.csproj", "{DE8AC7D4-3773-43BB-8332-F5C4EA70DFC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderFood.Application", "OrderFood.Application\OrderFood.Application.csproj", "{23E904B7-FDF1-4757-9569-D4E07ED4DCDA}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "OderFood.Frontend", "OderFood.Frontend\", "{024F3EEF-ACC2-4308-89FE-6300A1DA3145}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63663"
+		Debug.AspNetCompiler.PhysicalPath = "OderFood.Frontend\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63663\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63663"
+		Release.AspNetCompiler.PhysicalPath = "OderFood.Frontend\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63663\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63663"
+		SlnRelativePath = "OderFood.Frontend\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C9539D3-9220-421E-9069-1AFD7BCC8757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9539D3-9220-421E-9069-1AFD7BCC8757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9539D3-9220-421E-9069-1AFD7BCC8757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9539D3-9220-421E-9069-1AFD7BCC8757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25837A15-426E-40FE-BE57-A440D9DA0888}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25837A15-426E-40FE-BE57-A440D9DA0888}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25837A15-426E-40FE-BE57-A440D9DA0888}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25837A15-426E-40FE-BE57-A440D9DA0888}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3A2B267-ABED-416B-9307-C49A4CE46766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3A2B267-ABED-416B-9307-C49A4CE46766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3A2B267-ABED-416B-9307-C49A4CE46766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3A2B267-ABED-416B-9307-C49A4CE46766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FD1DD0A-5DB1-40C4-9D26-2330544EBB6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD1DD0A-5DB1-40C4-9D26-2330544EBB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD1DD0A-5DB1-40C4-9D26-2330544EBB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD1DD0A-5DB1-40C4-9D26-2330544EBB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E48DA521-5AEC-45ED-8568-C105269AA301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E48DA521-5AEC-45ED-8568-C105269AA301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E48DA521-5AEC-45ED-8568-C105269AA301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E48DA521-5AEC-45ED-8568-C105269AA301}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE8AC7D4-3773-43BB-8332-F5C4EA70DFC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE8AC7D4-3773-43BB-8332-F5C4EA70DFC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE8AC7D4-3773-43BB-8332-F5C4EA70DFC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE8AC7D4-3773-43BB-8332-F5C4EA70DFC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{23E904B7-FDF1-4757-9569-D4E07ED4DCDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{23E904B7-FDF1-4757-9569-D4E07ED4DCDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{23E904B7-FDF1-4757-9569-D4E07ED4DCDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{23E904B7-FDF1-4757-9569-D4E07ED4DCDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{024F3EEF-ACC2-4308-89FE-6300A1DA3145}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{024F3EEF-ACC2-4308-89FE-6300A1DA3145}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{024F3EEF-ACC2-4308-89FE-6300A1DA3145}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{024F3EEF-ACC2-4308-89FE-6300A1DA3145}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC0BE0FB-B5B1-4E45-9D9C-8436BC565D33}
+	EndGlobalSection
+EndGlobal
