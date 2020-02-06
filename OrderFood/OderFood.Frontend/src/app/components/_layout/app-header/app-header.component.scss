@@ -1,6 +1,6 @@
 .header-seaction{
     padding: 37.5px 0;
-    background: #ffffff;
+    background: #fff;
     width: 100%;
     z-index: 54;
     position: fixed;
@@ -57,6 +57,48 @@
             height: 79px;
             background-size: 100%;
             background-repeat: no-repeat;
+        }
+    }
+    a.nav-trigger {
+        display: block;
+        width: 18px;
+        height: 18px;
+        text-align: center;
+        background: url('/assets/images/icon/search-black.png') no-repeat;
+        background-size: 100%;
+        float: right;
+        &.is-clicked {
+            z-index: 21;
+            width: 16px;
+            height: 16px;
+            text-align: center;
+            text-indent: -99999px;
+            background: url('/assets/images/icon/delete.png') no-repeat;
+            background-size: 100%;
+            position: relative;
+            top: 3px;
+        }
+    }
+    .cd-primary-nav {
+        margin: 0;
+        width: 100%;
+        background: #f46b45;
+        background: linear-gradient(to right, #ff7d26, #de5a02);
+        backface-visibility: hidden;
+        // overflow: auto;
+        display: none;
+        transition-duration: 0.1s;
+        z-index: -10;
+        position: fixed;
+        left: 0;
+        top: 0;
+        &.is-visible {
+            display: block;
+            z-index: 2;
+        }
+        .block_links {
+            max-width: 800px;
+            margin: 90px auto 40px;
         }
     }
 }

@@ -1,9 +1,13 @@
 import { AppLayoutComponent, AppHeaderComponent } from './components/_layout';
 import {
-    RestaurantSearching
+    RestaurantSearching,
+    BannerSearching,
+    HomeComponent
 } from './components'
 export const SharedComponents = [
     AppLayoutComponent,
     AppHeaderComponent,
-    RestaurantSearching
+    RestaurantSearching,
+    BannerSearching,
+    HomeComponent
 ]
